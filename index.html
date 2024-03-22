@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tourism Guide</title>
+  </head>
+  <body>
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-2-line"></i></span>
+          <h4>Menu</h4>
+        </div>
+        <nav>
+          <ul class="nav__links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#travel">Travel</a></li>
+            <li><a href="#discover">Discover</a></li>
+            <li><a href="#client">Client</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <h1>Tourism Guide<br />travel app</h1>
+          <p class="section__description">
+            Our software offers a quick and effective way to plan and manage
+            your travels by combining all of your travel requirements into one
+            location and having an easy-to-use interface.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container travel__container" id="travel">
+      <div class="travel__image">
+        <img src="https://www.vcallglobal.com/blog/wp-content/uploads/2014/12/call-center-technology-289x300.jpg" alt="travel" />
+      </div>
+      <div class="travel__content">
+        <h2 class="section__header">
+          Travel Advisor <br />
+          &nbsp &nbsp for your trip
+        </h2>
+        <p class="section__description">
+          Our docents is here to make your trip even more enjoyable by offering
+          individualized support and knowledgeable direction at every turn.
+        </p>
+        <button class="btn">Learn More</button>
+        <img src="https://www.zerodollartips.com/wp-content/uploads/2016/08/google-maps-driving-directions.png" alt="map" />
+      </div>
+    </section>
+
+    <section class="section__container explore__container" id="explore">
+      <div class="explore__content">
+        <h2 class="section__header">
+          Explore hidden<br />places & popular<br />attractions
+        </h2>
+        <button class="btn">Learn More</button>
+      </div>
+      <div class="explore__wrapper">
+        <div class="explore__wrapper-inner">
+          <img
+            src="https://static.toiimg.com/thumb/msid-106943430,imgsize-105620,width-400,resizemode-4/106943430.jpg"
+            alt="explore"
+          />
+          <img
+            src="https://th.bing.com/th/id/OIP.TXlEs3JCXlV4WxCwadThrwHaE7?rs=1&pid=ImgDetMain"
+            alt="explore"
+          />
+          <img
+            src="https://static.toiimg.com/thumb/msid-80687781,width-748,height-499,resizemode=4,imgsize-1119656/Hawa-Mahal.jpg"
+            alt="explore"
+          />
+          <img
+            src="https://th.bing.com/th/id/OIP.2O5z9IY6TgsNWMtZTGmF1AHaFW?rs=1&pid=ImgDetMain"
+            alt="explore"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container discover__container" id="discover">
+      <h2 class="section__header">
+        Unlocking our travel <br />app's potential
+      </h2>
+      <div class="discover__grid">
+        <div class="discover__destination">
+          <div class="discover__destination__image">
+            <img src="https://th.bing.com/th/id/OIP.6-cNST_pv5oHZ0cWnT7U9AHaK_?rs=1&pid=ImgDetMain" alt="destination" />
+            <img src="https://secureservercdn.net/198.71.233.189/s71.aba.myftpupload.com/wp-content/uploads/2020/12/image-35.jpeg" alt="destination" />
+          </div>
+          <h4>Find your dream<br />destinations</h4>
+          <p class="section__description">
+            Browse a carefully chosen range of travel options, all of which are
+            intended to satisfy your desire to see the world and satiate your
+            wanderlust.
+          </p>
+          <button class="btn">Learn More</button>
+        </div>
+        <div class="discover__plan">
+          <div class="discover__plan__content">
+            <h4>Plan trips within<br />a single tap</h4>
+            <p class="section__description">
+              It has never been easier to plan your trip with streamlined
+              navigation and real-time updates.
+            </p>
+            <button class="btn">Learn More</button>
+          </div>
+          <img src="https://img.freepik.com/premium-vector/bus-train-airplane-tickets-flat-design-style-icon_269504-862.jpg?w=2000" alt="plan" />
+        </div>
+        <div class="discover__guide">
+          <div class="discover__guide__content">
+            <h4>Ultimate guide to<br />explore the world</h4>
+            <p class="section__description">
+              Whether this is your first time traveling or you're an experienced
+              traveler, our guide has everything you need to know from must-see
+              sites and hidden treasures to useful tips on packing, budgeting,
+              and interacting with different cultures.
+            </p>
+            <button class="btn">Learn More</button>
+          </div>
+          <div class="discover__guide__image">
+            <img src="https://www.thebluediamondgallery.com/wooden-tile/images/guide.jpg" alt="guide" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container customer__container" id="client">
+      <h2 class="section__header">
+        Inspiring stories from our<br />satisfied customers
+      </h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <img
+                src="trustpilot-review---rachel.png"
+                alt="customer"
+                class="customer__image"
+              />
+              <img
+                src="trustpilot-review---rachel.png"
+                alt="customer user"
+                class="customer__user"
+              /> 
+              <div class="customer__card__content">
+                The app made booking my trip a breeze—effortless and efficient!
+              </div> 
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <img
+                src="trustpilot-review---rachel.png"
+                alt="customer"
+                class="customer__image"
+              />
+              <img
+                src="Trustpilot-Review-D-Sailes.png"
+                alt="customer user"
+                class="customer__user"
+              />
+              <div class="customer__card__content">
+                Incredible customer service—prompt responses and problem-solving
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <img
+                src="trustpilot-review---rachel.png"
+                alt="customer"
+                class="customer__image"
+              />
+              <img src="OIP.jpeg" alt="customer user" class="customer__user" />
+              <div class="customer__card__content">
+                Love the personalized itineraries, keeping me organized
+                throughout trip.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <img
+                src="trustpilot-review---rachel.png"
+                alt="customer"
+                class="customer__image"
+              />
+              <img
+                src="trustpilot-review---rachel.png"
+                alt="customer user"
+                class="customer__user"
+              />
+              <div class="customer__card__content">
+                The travel updates feature kept me informed, especially during
+                uncertain times.
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <img
+                src="trustpilot-review---rachel.png"
+                alt="customer"
+                class="customer__image"
+              />
+              <img
+                src="trustpilot-review---rachel.png"
+                alt="customer user"
+                class="customer__user"
+              />
+              <div class="customer__card__content">
+                Great discounts and exclusive deals—saved a lot on my bookings
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customer__card">
+              <img
+                src="trustpilot-review---rachel.png"
+                alt="customer"
+                class="customer__image"
+              />
+              <img
+                src="trustpilot-review---rachel.png"
+                alt="customer user"
+                class="customer__user"
+              />
+              <div class="customer__card__content">
+                User-friendly interface and seamless navigation—my go-to travel
+                companion.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container faq__container" id="faq">
+      <h2 class="section__header">FAQ</h2>
+      <div class="faq__grid">
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>How can I book a flight on your website?</h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            Booking a flight is easy! Simply visit our homepage and enter your
+            departure and destination cities, along with your travel dates.
+            Click on the "Search" button, and you'll see a list of available
+            flights. Choose the one that suits you best and follow the simple
+            steps to complete your booking.
+          </div>
+        </div>
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>
+              What should I do if I need to make changes to my hotel
+              reservation?
+            </h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            Making changes to your hotel reservation is hassle-free. Log in to
+            your account, go to the "My Bookings" section, and select the
+            reservation you want to modify. From there, you can usually find
+            options to edit dates, room preferences, or even cancel the
+            reservation if needed.
+          </div>
+        </div>
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>
+              Are there any travel restrictions or COVID-19 guidelines I should
+              be aware of for my destination?
+            </h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            Stay informed about travel restrictions and COVID-19 guidelines by
+            checking our dedicated travel advisory page. We provide up-to-date
+            information on entry requirements, quarantine rules, and health
+            protocols for various destinations. It's essential to review this
+            information before planning your trip.
+          </div>
+        </div>
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>
+              What payment methods are accepted for bookings on your site?
+            </h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            We accept a variety of payment methods, including major credit
+            cards, debit cards, and popular digital wallets. During the booking
+            process, you can choose your preferred payment option. Rest assured,
+            our payment gateway is secure and ensures the safety of your
+            financial information.
+          </div>
+        </div>
+        <div class="faq__card">
+          <div class="faq__header">
+            <h4>
+              How can I contact customer support for assistance during my trip?
+            </h4>
+            <span><i class="ri-arrow-down-s-line"></i></span>
+          </div>
+          <div class="faq__content">
+            We're here to help! You can reach our customer support team 24/7
+            through our helpline or via email. We also offer a live chat option
+            on our website for quick assistance. If you encounter any issues
+            during your trip or have questions, don't hesitate to get in touch,
+            and we'll do our best to assist you promptly.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <h2 class="section__header">Tourism Guide</h2>
+        <div class="footer__socials">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+        </div>
+        <ul class="footer__links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#travel">Travel</a></li>
+          <li><a href="#discover">Discover</a></li>
+          <li><a href="#client">Client</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design by Digi Destroyers. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
